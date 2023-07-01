@@ -1,0 +1,80 @@
+header{
+    background-color: rgba(101,186,116,0.6);
+    color:white;
+    font:bold;
+    font-size:larger;
+}
+header img{
+    display:inline-block;
+    width:15vw;
+    background-color: white;
+    border-radius:50%;
+    transform: translateY(25%);
+    margin-left:20%;
+}
+header h1{
+    display:inline-block;
+}
+
+#balance{
+    border:2px solid rgba(101,186,116,0.6);
+    border-radius:20px;
+    margin-top:5%;
+}
+#balance h2{
+    display:inline-block;
+    margin-left:20%;
+    font-size:200%;
+}
+#balance button{
+    display:inline-block;
+    font-size:large;
+    padding:0px;
+    width:8vw;
+    height:8vw;
+    border-radius:50%;
+    transform: translateY(-80%);
+    margin-left:35%;
+}
+
+#history{
+    display:inline-block;
+    height:30vh;
+    width:100%;
+    border:2px solid rgba(101,186,116,0.6);
+    border-radius:20px;
+    margin-top:5%;
+    overflow: hidden;
+}
+
+footer{
+    margin-top:10%;
+    background-color:rgba(101,186,116,0.6);
+}
+footer button{
+    display:inline-block;
+    width:20vw;
+    height:20vw;
+    border-radius:100%;
+    transform: translateY(-50%);
+}
+footer button:nth-child(1){
+    background:url(https://icons-for-free.com/iconfiles/png/512/mixed+paper+paper+recycle+paper+recycling+icon-1320190662166910891.png);
+    background-size:135%;
+    background-position: -10px -13.8px;
+    width:18vw;
+    height:18vw;
+    margin-left:2%;
+}
+footer button:nth-child(2){
+    background-image:url(https://cdn-icons-png.flaticon.com/512/211/211738.png?w=740&t=st=1688215397~exp=1688215997~hmac=3428023f9b889fdc39ea864b51bdad4915655e461ae1d9afd521ac05083564a4);
+    background-size:100%;
+    margin-left:15%;
+}
+footer button:nth-child(3){
+    background-image:url(https://pic.onlinewebfonts.com/svg/img_237553.png);
+    background-size:100%;
+    margin-left:15%;
+    width:18vw;
+    height:18vw;
+}

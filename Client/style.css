@@ -7,6 +7,7 @@ header{
 header img{
     display:inline-block;
     width:15vw;
+    max-width:100px;
     background-color: white;
     border-radius:50%;
     transform: translateY(25%);
@@ -23,18 +24,25 @@ header h1{
 }
 #balance h2{
     display:inline-block;
-    margin-left:20%;
+    margin-left:45%;
     font-size:200%;
+    text-align:center;
 }
 #balance button{
     display:inline-block;
+    position:absolute;
+    left:50%;
     font-size:large;
     padding:0px;
     width:8vw;
     height:8vw;
     border-radius:50%;
-    transform: translateY(-80%);
+    transform: translateY(20%);
     margin-left:35%;
+    max-width:50px;
+    max-height:50px;
+    min-width:30px;
+    min-height:30px;
 }
 
 #history{
@@ -44,7 +52,15 @@ header h1{
     border:2px solid rgba(101,186,116,0.6);
     border-radius:20px;
     margin-top:5%;
-    overflow: hidden;
+    overflow: scroll;
+}
+#history div{
+    border:2px solid black;
+    margin:3%;
+}
+#history div p{
+    display:inline-block;
+    margin:2%;
 }
 
 footer{
@@ -57,6 +73,10 @@ footer button{
     height:20vw;
     border-radius:100%;
     transform: translateY(-50%);
+    max-width:80px;
+    max-height:80px;
+    min-width:50px;
+    min-height:50px;
 }
 footer button:nth-child(1){
     background:url(https://icons-for-free.com/iconfiles/png/512/mixed+paper+paper+recycle+paper+recycling+icon-1320190662166910891.png);
@@ -77,4 +97,7 @@ footer button:nth-child(3){
     margin-left:15%;
     width:18vw;
     height:18vw;
+}
+#edit-profile{
+    display:none;
 }

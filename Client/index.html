@@ -14,15 +14,23 @@
             <h1>Banco</h1>
         </header>
         <div id="balance">
-            <h2 id="balance-text">0.00$</h2>
-            <button id="view-balance">👁</button>
+            <h2 id="balance-text">0$</h2>
+            <button id="view-balance" onclick="hideMoney()">👁</button>
         </div>
         <div id="history"></div>
         <footer>
+            <button onclick="showHistory()"></button>
             <button></button>
-            <button></button>
-            <button></button>
+            <button onclick="showProfile()"></button>
         </footer>
+        <div id="edit-profile">
+            <form>
+                <input id="nome-profile" type="text" placeholder="Seu Nome"/>
+            </form>
+        </div>
+        <div id="all-history">
+            
+        </div>
         <script src="main.js" defer></script>
     </body>
 </html>
